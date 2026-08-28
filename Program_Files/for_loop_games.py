@@ -40,8 +40,8 @@ for item in f_numbers:
 
 # Write a program to find the largest & smallest number in a list
 num_list = [9, 10, 2, 99, 30, 45, 1, 0, 87, 20]
-largest = 0
-smallest = 0
+largest = num_list[0]
+smallest = num_list[0]
 for item in num_list:
     if item >= largest:
         largest = item
