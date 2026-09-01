@@ -13,7 +13,7 @@ for r in range(size):
     print(string)
 
 
-# Triangle (Trying an equilateral triangle)
+# Triangle
 tri = int(input(">> Input triangle size:-  "))
 r = 1
 c = 1
